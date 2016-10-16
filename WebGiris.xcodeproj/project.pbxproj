@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215B12207DC502A736971011 /* Pods_WebGiris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1ED38FB1EF78BB84F863F9 /* Pods_WebGiris.framework */; };
+		E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908BF841D9C575F00E4156F /* VeriGiris.swift */; };
 		E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECAE1D99A13E004D502E /* AppDelegate.swift */; };
 		E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB01D99A13E004D502E /* ViewController.swift */; };
 		E9DFECB41D99A13E004D502E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB21D99A13E004D502E /* Main.storyboard */; };
 		E9DFECB71D99A13E004D502E /* WebGiris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB51D99A13E004D502E /* WebGiris.xcdatamodeld */; };
 		E9DFECB91D99A13E004D502E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB81D99A13E004D502E /* Assets.xcassets */; };
 		E9DFECBC1D99A13E004D502E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECBA1D99A13E004D502E /* LaunchScreen.storyboard */; };
+		E9E8242B1D99BEE700C35518 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E8242A1D99BEE700C35518 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F1ED38FB1EF78BB84F863F9 /* Pods_WebGiris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebGiris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E85629617C1EAC689E16BE4 /* Pods-WebGiris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebGiris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebGiris.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris.release.xcconfig"; sourceTree = "<group>"; };
+		E908BF841D9C575F00E4156F /* VeriGiris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriGiris.swift; sourceTree = "<group>"; };
+		E98D06FA1DA04A78002563C5 /* WebGiris.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebGiris.entitlements; sourceTree = "<group>"; };
 		E9DFECAB1D99A13E004D502E /* WebGiris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGiris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DFECAE1D99A13E004D502E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DFECB01D99A13E004D502E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,7 @@
 		E9DFECB81D99A13E004D502E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DFECBB1D99A13E004D502E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DFECBD1D99A13E004D502E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E8242A1D99BEE700C35518 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215B12207DC502A736971011 /* Pods_WebGiris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08697B18238B034DD99A2AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1ED38FB1EF78BB84F863F9 /* Pods_WebGiris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F2EF390CFFDF2714B5829C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E85629617C1EAC689E16BE4 /* Pods-WebGiris.debug.xcconfig */,
+				8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9DFECA21D99A13E004D502E = {
 			isa = PBXGroup;
 			children = (
 				E9DFECAD1D99A13E004D502E /* WebGiris */,
 				E9DFECAC1D99A13E004D502E /* Products */,
+				92F2EF390CFFDF2714B5829C /* Pods */,
+				08697B18238B034DD99A2AB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +85,15 @@
 		E9DFECAD1D99A13E004D502E /* WebGiris */ = {
 			isa = PBXGroup;
 			children = (
+				E98D06FA1DA04A78002563C5 /* WebGiris.entitlements */,
 				E9DFECAE1D99A13E004D502E /* AppDelegate.swift */,
 				E9DFECB01D99A13E004D502E /* ViewController.swift */,
+				E908BF841D9C575F00E4156F /* VeriGiris.swift */,
 				E9DFECB21D99A13E004D502E /* Main.storyboard */,
 				E9DFECB81D99A13E004D502E /* Assets.xcassets */,
 				E9DFECBA1D99A13E004D502E /* LaunchScreen.storyboard */,
 				E9DFECBD1D99A13E004D502E /* Info.plist */,
+				E9E8242A1D99BEE700C35518 /* GoogleService-Info.plist */,
 				E9DFECB51D99A13E004D502E /* WebGiris.xcdatamodeld */,
 			);
 			path = WebGiris;
@@ -74,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9DFECC01D99A13E004D502E /* Build configuration list for PBXNativeTarget "WebGiris" */;
 			buildPhases = (
+				EBE441198AD417BCED1F4C8F /* [CP] Check Pods Manifest.lock */,
 				E9DFECA71D99A13E004D502E /* Sources */,
 				E9DFECA81D99A13E004D502E /* Frameworks */,
 				E9DFECA91D99A13E004D502E /* Resources */,
+				3C816662DF56900C3F154ECA /* [CP] Embed Pods Frameworks */,
+				409E6BCCA1FEEFBB6DF375FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +136,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 7474U2NUMC;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,12 +168,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DFECBC1D99A13E004D502E /* LaunchScreen.storyboard in Resources */,
+				E9E8242B1D99BEE700C35518 /* GoogleService-Info.plist in Resources */,
 				E9DFECB91D99A13E004D502E /* Assets.xcassets in Resources */,
 				E9DFECB41D99A13E004D502E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C816662DF56900C3F154ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		409E6BCCA1FEEFBB6DF375FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE441198AD417BCED1F4C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9DFECA71D99A13E004D502E /* Sources */ = {
@@ -142,6 +231,7 @@
 			files = (
 				E9DFECB71D99A13E004D502E /* WebGiris.xcdatamodeld in Sources */,
 				E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */,
+				E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */,
 				E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +276,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +326,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -261,10 +353,13 @@
 		};
 		E9DFECC11D99A13E004D502E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E85629617C1EAC689E16BE4 /* Pods-WebGiris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebGiris/WebGiris.entitlements;
 				DEVELOPMENT_TEAM = 7474U2NUMC;
 				INFOPLIST_FILE = WebGiris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vuralozsen.WebGiris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +369,13 @@
 		};
 		E9DFECC21D99A13E004D502E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebGiris/WebGiris.entitlements;
 				DEVELOPMENT_TEAM = 7474U2NUMC;
 				INFOPLIST_FILE = WebGiris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vuralozsen.WebGiris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +402,7 @@
 				E9DFECC21D99A13E004D502E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
