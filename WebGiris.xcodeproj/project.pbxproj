@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		215B12207DC502A736971011 /* Pods_WebGiris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1ED38FB1EF78BB84F863F9 /* Pods_WebGiris.framework */; };
 		E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908BF841D9C575F00E4156F /* VeriGiris.swift */; };
+		E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91032F01DB3F4D900398C51 /* alertFunc.swift */; };
 		E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECAE1D99A13E004D502E /* AppDelegate.swift */; };
 		E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB01D99A13E004D502E /* ViewController.swift */; };
 		E9DFECB41D99A13E004D502E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB21D99A13E004D502E /* Main.storyboard */; };
-		E9DFECB71D99A13E004D502E /* WebGiris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB51D99A13E004D502E /* WebGiris.xcdatamodeld */; };
 		E9DFECB91D99A13E004D502E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB81D99A13E004D502E /* Assets.xcassets */; };
 		E9DFECBC1D99A13E004D502E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECBA1D99A13E004D502E /* LaunchScreen.storyboard */; };
 		E9E8242B1D99BEE700C35518 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E8242A1D99BEE700C35518 /* GoogleService-Info.plist */; };
@@ -23,12 +23,11 @@
 		5E85629617C1EAC689E16BE4 /* Pods-WebGiris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebGiris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebGiris.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris.release.xcconfig"; sourceTree = "<group>"; };
 		E908BF841D9C575F00E4156F /* VeriGiris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriGiris.swift; sourceTree = "<group>"; };
-		E98D06FA1DA04A78002563C5 /* WebGiris.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebGiris.entitlements; sourceTree = "<group>"; };
+		E91032F01DB3F4D900398C51 /* alertFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertFunc.swift; sourceTree = "<group>"; };
 		E9DFECAB1D99A13E004D502E /* WebGiris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGiris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DFECAE1D99A13E004D502E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DFECB01D99A13E004D502E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9DFECB31D99A13E004D502E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9DFECB61D99A13E004D502E /* WebGiris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebGiris.xcdatamodel; sourceTree = "<group>"; };
 		E9DFECB81D99A13E004D502E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DFECBB1D99A13E004D502E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DFECBD1D99A13E004D502E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,16 +84,15 @@
 		E9DFECAD1D99A13E004D502E /* WebGiris */ = {
 			isa = PBXGroup;
 			children = (
-				E98D06FA1DA04A78002563C5 /* WebGiris.entitlements */,
 				E9DFECAE1D99A13E004D502E /* AppDelegate.swift */,
 				E9DFECB01D99A13E004D502E /* ViewController.swift */,
+				E91032F01DB3F4D900398C51 /* alertFunc.swift */,
 				E908BF841D9C575F00E4156F /* VeriGiris.swift */,
 				E9DFECB21D99A13E004D502E /* Main.storyboard */,
 				E9DFECB81D99A13E004D502E /* Assets.xcassets */,
 				E9DFECBA1D99A13E004D502E /* LaunchScreen.storyboard */,
 				E9DFECBD1D99A13E004D502E /* Info.plist */,
 				E9E8242A1D99BEE700C35518 /* GoogleService-Info.plist */,
-				E9DFECB51D99A13E004D502E /* WebGiris.xcdatamodeld */,
 			);
 			path = WebGiris;
 			sourceTree = "<group>";
@@ -138,7 +136,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -229,9 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9DFECB71D99A13E004D502E /* WebGiris.xcdatamodeld in Sources */,
 				E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */,
 				E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */,
+				E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */,
 				E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +354,6 @@
 			baseConfigurationReference = 5E85629617C1EAC689E16BE4 /* Pods-WebGiris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = WebGiris/WebGiris.entitlements;
 				DEVELOPMENT_TEAM = 7474U2NUMC;
 				INFOPLIST_FILE = WebGiris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -372,7 +369,6 @@
 			baseConfigurationReference = 8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = WebGiris/WebGiris.entitlements;
 				DEVELOPMENT_TEAM = 7474U2NUMC;
 				INFOPLIST_FILE = WebGiris/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -405,19 +401,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E9DFECB51D99A13E004D502E /* WebGiris.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E9DFECB61D99A13E004D502E /* WebGiris.xcdatamodel */,
-			);
-			currentVersion = E9DFECB61D99A13E004D502E /* WebGiris.xcdatamodel */;
-			path = WebGiris.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E9DFECA31D99A13E004D502E /* Project object */;
 }

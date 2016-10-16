@@ -15,9 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
-    
     }
+    
 
   @IBOutlet weak var epostaField: UITextField!
     @IBOutlet weak var sifreField: UITextField!
@@ -49,14 +48,6 @@ class ViewController: UIViewController {
         }
     }
 
-    func showAlertMsg(title: String, message: String){
-     
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let alert = UIAlertAction(title: "Tamam", style: .default, handler: nil)
-        present(alertController, animated: true, completion: nil)
-        alertController.addAction(alert)
-    }
-    
     func giris () {
         
         let eposta = epostaField.text
@@ -65,11 +56,11 @@ class ViewController: UIViewController {
         FIRAuth.auth()?.signIn(withEmail: eposta!, password: sifre!){ (user, error) in
             
             if error != nil {
-                let title  = " Giriş Yapılamadı! "
-                let message = " Kullanıcı adınızı ya da şifrenizi hatalı girdiniz"
-                self.showAlertMsg (title: title ,message: message)
+
+            popUpMesaj.showAlertMsg(viewController: self)
+                
             }
-               else
+            else
             {
                 self.epostaField.text = ""
                 self.sifreField.text = ""
