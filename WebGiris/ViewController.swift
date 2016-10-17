@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import FirebaseAuth
-
 
 class ViewController: UIViewController {
 
@@ -21,53 +19,14 @@ class ViewController: UIViewController {
   @IBOutlet weak var epostaField: UITextField!
     @IBOutlet weak var sifreField: UITextField!
     @IBAction func postaKayit(_ sender: AnyObject) {
-        kaydet()
+        kayit.kaydet(viewController: self)
     }
     @IBAction func postaGiris(_ sender: AnyObject) {
-        giris()
+        kayit.giris(viewController: self)
     }
     @IBAction func sayfaGerial(segue : UIStoryboardSegue){
     }
     
-    func kaydet () {
-        
-            let eposta = epostaField.text
-            let sifre = sifreField.text
-        
-        FIRAuth.auth()?.createUser(withEmail: eposta!, password: sifre!){ (user, error) in
-            
-            if error != nil {
-                print("Kayıtta sıkıntı var hacı")}
-            else
-            {
-                self.epostaField.text = ""
-                self.sifreField.text = ""
-                print("Kayıt yapıldı")
-                
-            }
-        }
-    }
 
-    func giris () {
-        
-        let eposta = epostaField.text
-        let sifre = sifreField.text
-        
-        FIRAuth.auth()?.signIn(withEmail: eposta!, password: sifre!){ (user, error) in
-            
-            if error != nil {
-
-            popUpMesaj.showAlertMsg(viewController: self)
-                
-            }
-            else
-            {
-                self.epostaField.text = ""
-                self.sifreField.text = ""
-                self.performSegue(withIdentifier: "loggedInPage", sender: nil)
-                
-            }
-        }
-    }
 
 }

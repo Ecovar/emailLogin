@@ -12,7 +12,7 @@ import UIKit
 
 class popUpMesaj{
 
-   static func showAlertMsg(viewController : ViewController){
+   static func showAlertMsg(viewController : ViewController){  // fonksiyon static olmalı yoksa hata alınıyor
    
         
     let title  = " Giriş Yapılamadı! "
@@ -22,7 +22,7 @@ class popUpMesaj{
     alertController.addAction(alert)
     viewController.present(alertController, animated: true, completion: nil)
         
-        
+       // popUpMesaj.showAlertMsg(viewController: self ) -> PopUp gösterilecek yere(viewcontroller) bu kodu kopyalamayı unutma
 
 }
     

@@ -10,6 +10,7 @@
 		215B12207DC502A736971011 /* Pods_WebGiris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1ED38FB1EF78BB84F863F9 /* Pods_WebGiris.framework */; };
 		E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908BF841D9C575F00E4156F /* VeriGiris.swift */; };
 		E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91032F01DB3F4D900398C51 /* alertFunc.swift */; };
+		E910D7841DB56D330066F1DD /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910D7831DB56D330066F1DD /* logIn.swift */; };
 		E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECAE1D99A13E004D502E /* AppDelegate.swift */; };
 		E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB01D99A13E004D502E /* ViewController.swift */; };
 		E9DFECB41D99A13E004D502E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB21D99A13E004D502E /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		8DF7D293C2C55893390287BE /* Pods-WebGiris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebGiris.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebGiris/Pods-WebGiris.release.xcconfig"; sourceTree = "<group>"; };
 		E908BF841D9C575F00E4156F /* VeriGiris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriGiris.swift; sourceTree = "<group>"; };
 		E91032F01DB3F4D900398C51 /* alertFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertFunc.swift; sourceTree = "<group>"; };
+		E910D7831DB56D330066F1DD /* logIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
 		E9DFECAB1D99A13E004D502E /* WebGiris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGiris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DFECAE1D99A13E004D502E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DFECB01D99A13E004D502E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				E9DFECAE1D99A13E004D502E /* AppDelegate.swift */,
 				E9DFECB01D99A13E004D502E /* ViewController.swift */,
+				E910D7831DB56D330066F1DD /* logIn.swift */,
 				E91032F01DB3F4D900398C51 /* alertFunc.swift */,
 				E908BF841D9C575F00E4156F /* VeriGiris.swift */,
 				E9DFECB21D99A13E004D502E /* Main.storyboard */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E910D7841DB56D330066F1DD /* logIn.swift in Sources */,
 				E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */,
 				E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */,
 				E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */,
