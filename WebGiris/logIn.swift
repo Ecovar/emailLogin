@@ -9,20 +9,20 @@
 import Foundation
 import FirebaseAuth
 
-class kayit{
+struct kayit{ // struct ya da class  farketmiyor daha sınra kontrol gerekebilir
 
-    static func kaydet (viewController : ViewController){
+    static func kaydet (viewController : ViewController){ //static olmaz ise çağrılammıyor hata veriyor
     
     let eposta = viewController.epostaField.text
     let sifre = viewController.sifreField.text
     
-    FIRAuth.auth()?.createUser(withEmail: eposta!, password: sifre!){ (user, error) in
+    FIRAuth.auth()?.createUser(withEmail: eposta!, password: sifre!){ (user, error) in //Firebase Auth kullanıcı kayıt
         
-        if error != nil {
+        if error != nil { // eğer hata verirse hatayı yazdır
             print("Kayıtta sıkıntı var hacı")}
         else
         {
-            viewController.epostaField.text = ""
+            viewController.epostaField.text = "" // hata vermez ise textfield verilerini boşalt
             viewController.sifreField.text = ""
             print("Kayıt yapıldı")
             
@@ -35,11 +35,11 @@ static func giris (viewController : ViewController) {
     let eposta = viewController.epostaField.text
     let sifre = viewController.sifreField.text
     
-    FIRAuth.auth()?.signIn(withEmail: eposta!, password: sifre!){ (user, error) in
+    FIRAuth.auth()?.signIn(withEmail: eposta!, password: sifre!){ (user, error) in // Firebase kullanıcı giriş
         
         if error != nil {
             
-            popUpMesaj.showAlertMsg(viewController:viewController )
+            popUpMesaj.showAlertMsg(viewController:viewController ) //pop up mesajı göster self yerine viewController kullanıldı çünkü viewController farklı sayfada (aynı olsa idid self yazıyorduk)
             
         }
         else

@@ -18,8 +18,9 @@ class VeriViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
-    
+    var dataBase = FIRDatabase.database().reference()
     
     @IBOutlet weak var adField: UITextField!
     
@@ -41,9 +42,9 @@ class VeriViewController: UIViewController {
         let ad =  adField.text
         let SoyAd = soyadField.text
         
-        let kayit : [ String : AnyObject  ] = [ " Adınız": ad! as AnyObject, "Soyadınız" :SoyAd! as AnyObject ]
+        let kayit : [ String : Any  ] = [ "adi": ad! , "soyadi" :SoyAd! ]
         
-        let dataBase = FIRDatabase.database().reference()
+        
         dataBase.child("Rehber").childByAutoId().setValue(kayit)
         
     }

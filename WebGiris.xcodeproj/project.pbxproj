@@ -11,6 +11,7 @@
 		E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908BF841D9C575F00E4156F /* VeriGiris.swift */; };
 		E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91032F01DB3F4D900398C51 /* alertFunc.swift */; };
 		E910D7841DB56D330066F1DD /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910D7831DB56D330066F1DD /* logIn.swift */; };
+		E9324D3F1DBE9D120037B131 /* veriCekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9324D3E1DBE9D120037B131 /* veriCekTableViewController.swift */; };
 		E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECAE1D99A13E004D502E /* AppDelegate.swift */; };
 		E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFECB01D99A13E004D502E /* ViewController.swift */; };
 		E9DFECB41D99A13E004D502E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DFECB21D99A13E004D502E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		E908BF841D9C575F00E4156F /* VeriGiris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriGiris.swift; sourceTree = "<group>"; };
 		E91032F01DB3F4D900398C51 /* alertFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertFunc.swift; sourceTree = "<group>"; };
 		E910D7831DB56D330066F1DD /* logIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		E9324D3E1DBE9D120037B131 /* veriCekTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = veriCekTableViewController.swift; sourceTree = "<group>"; };
 		E9DFECAB1D99A13E004D502E /* WebGiris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebGiris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DFECAE1D99A13E004D502E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9DFECB01D99A13E004D502E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				E91032F01DB3F4D900398C51 /* alertFunc.swift */,
 				E908BF841D9C575F00E4156F /* VeriGiris.swift */,
 				E9DFECB21D99A13E004D502E /* Main.storyboard */,
+				E9324D3E1DBE9D120037B131 /* veriCekTableViewController.swift */,
 				E9DFECB81D99A13E004D502E /* Assets.xcassets */,
 				E9DFECBA1D99A13E004D502E /* LaunchScreen.storyboard */,
 				E9DFECBD1D99A13E004D502E /* Info.plist */,
@@ -232,6 +235,7 @@
 			files = (
 				E910D7841DB56D330066F1DD /* logIn.swift in Sources */,
 				E9DFECB11D99A13E004D502E /* ViewController.swift in Sources */,
+				E9324D3F1DBE9D120037B131 /* veriCekTableViewController.swift in Sources */,
 				E908BF851D9C575F00E4156F /* VeriGiris.swift in Sources */,
 				E91032F11DB3F4D900398C51 /* alertFunc.swift in Sources */,
 				E9DFECAF1D99A13E004D502E /* AppDelegate.swift in Sources */,
